@@ -62,18 +62,18 @@ table {
 html {
   font-size: 100%;
 }
-font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', serif;
 @font-face {
-	font-family: 'Roboto Slab';
+	font-family: 'Ubuntu';
 }
 
 @font-face {
-	font-family: 'Roboto Slab';
+	font-family: 'Ubuntu';
 }
 
 body {
   background: #fff;
-  font: 18px/1.4 'Roboto Slab';
+  font: 16px/1.4 'Ubuntu';
   font-weight: lighter;
   color: #333;
 }
@@ -88,7 +88,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab';
+  font-family: 'Ubuntu';
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -127,15 +127,24 @@ p {
 }
 
 a {
-  color: #007bff; 
-  /*#4183C4;*/
+  color: #318CE7; 
+  /*#007bff;*/
   text-decoration: none;
+  font-weight: bolder;
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #007bff; 
+  color: #0039a6;
+  font-weight: bold;
+  text-decoration: none; 
   /*#4183C4;*/
 }
+
+tt {
+  font-family: "Lucida Console", "Menlo", "Monaco", "Courier",
+               monospace;
+}
+
 
 ul, ol {
   margin: 15px 0;
@@ -161,6 +170,10 @@ ul ul, ol ul {
 em, i {
   font-style: italic;
 }
+
+sc {
+  font-variant-caps: small-caps;
+}  
 
 small {
   font-size: smaller;
@@ -280,10 +293,10 @@ img {
   margin: 0;
   color: #333;
   cursor: pointer;
-  font-family: 'Roboto Slab';
+  font-family: 'Ubuntu';
   font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-size: 38px;
+  letter-spacing: 0.5px;
 }
 
 .site-description {
@@ -300,7 +313,7 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: 'Roboto Slab';
+  font-family: 'Ubuntu';
   font-size: 18px;
 }
 @media screen and (max-width: 640px) {
@@ -321,7 +334,7 @@ nav a {
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
-    color: #4183C4;
+    color: #318CE7;
   }
 }
 
@@ -360,6 +373,7 @@ nav a {
 footer {
   padding: 20px 0;
   text-align: center;
+  font-weight: lighter;
 }
 
 .highlight {
@@ -372,6 +386,41 @@ footer {
   margin: 20px 0 20px 0;
   overflow: scroll;
 }
+
+.button {
+  background-color: #318CE7; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 1px 1px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: maroon; 
+  color: white; 
+  border: 2px solid #318CE7;
+}
+
+.button1:hover {
+  background-color: maroon;
+  color: white;
+  font-weight:bolder;
+}
+
+.button2 {
+  background-color: #c9620c; 
+  color: white; 
+  cursor: auto;
+  border: 4px solid #c9620c;
+}
+
 
 code {
   font-family: 'Bitstream Vera Sans Mono','Courier', monospace;
