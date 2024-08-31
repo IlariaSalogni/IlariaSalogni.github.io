@@ -1,4 +1,4 @@
 # Hey there! :) 
-This is Ilaria, I'm a MSc final year student in NLP with a background in linguistics, working on explainability of LLMs. 
-Right now (autumn'23) I'm writing my master thesis about quantification.
+This is Ilaria, I'm a MSc graduate in NLP with a background in linguistics, working on explainability of LLMs. 
+Right now (summer '24) I'm looking for linguistic research opportunities.
 Reach me out at i.salogni@studenti.unipi.it for collaborations and any questions!
